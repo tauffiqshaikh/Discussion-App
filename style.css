@@ -1,0 +1,87 @@
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0px;
+  height: 100%;
+}
+
+#header{
+  height: 100px;
+  width: 100%;
+  background-color: darkcyan;
+  display: flex;
+  align-items: center;
+}
+
+.appHeader{
+  margin-left: 6px;
+  color: rgb(255, 255, 255);
+}
+
+.container{
+  display: flex;
+  height: 100%;
+}
+
+.leftPane{
+  flex: 1;
+  height: 100%;
+  border-right: 1px lightgray solid;
+  border-bottom: 1px gray solid;
+}
+
+.rightPane{
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.leftPaneHeader{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 1px gray solid;
+  height: 50px;
+}
+
+.button{
+  background-color: blue;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+.input{
+  border: 0.2px solid gray ;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#questionContainer{
+  height: 100%;
+  background: lightgray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.createQuestionContainer{
+  width: 80%;
+}
+
+.createQuestionContainer > .input{
+  margin-bottom: 10px;
+}
+
+.createQuestionContainer > .question{
+  width: 100%;
+}
+
+.createQuestionContainer > .button{
+  float: right;
+}
+
+
